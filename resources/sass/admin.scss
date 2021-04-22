@@ -1,0 +1,92 @@
+.first-nav{
+    display: block;
+    min-width:100%;
+    height:3.8vw;
+    background-color: #0d2d62;
+}
+.card-select{
+    display: flex;
+}
+h1{
+    margin-top: 20px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.logo-navigate{
+    min-width: 100%;
+    height: 18vw;
+    background-color: white;
+}
+.principal-carousel{
+    max-height: 40vw;
+}
+.logo{
+    display: flex !important;
+    justify-content: center;
+}
+.logo-image{
+    margin-top: 1%;
+    max-width: 25%;
+    max-height: 15%;
+}
+.nav-links{
+    bottom: 0%;
+}
+.menu{
+    display: flex;
+    margin: 40px;
+}
+.link-nav{
+    display: unset;
+    margin: 40% 40%  40% 40% !important;
+    font-size: 10px;
+}
+.nav{
+    margin: 0;
+}
+.span-nav{
+    color: #cdcdce !important;
+    display: flex;
+    justify-content: center;
+    margin: 0 !important;
+}
+ul {
+    display: table;
+    text-align: center;
+    position: absolute;
+    bottom: 55%;
+    left: 5%;
+    list-style-type: none;
+    font-size: 20px;
+  }
+  
+  li {
+      margin: 10%;
+      display: inline;
+  }
+  .a-link:link, .a-link:visited, .a-link:active {
+      color: black;
+      text-decoration:none;
+      font-family: 'Times New Roman', Times, serif;
+      font-weight: bold;
+}
+.a-link:hover{
+        color: brown;
+    }
+
+.icono{
+    font-size: 20px;
+    color: #cdcdce;
+    margin: 0 30px
+}
+.card-columns {
+    @include media-breakpoint-only(lg) {
+      column-count: 4;
+    }
+    @include media-breakpoint-only(xl) {
+      column-count: 5;
+    }
+  }
+.imagen{
+    min-width: 100% !important;
+}
